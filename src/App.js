@@ -5,7 +5,6 @@ import cv1 from './images/cv1.jpg';
 import cv from './images/cv.jpg';
 import myblog from './images/myblog.jpg';
 import projects from './images/projects.jpg';
-import myphoto from './images/myphoto.JPG';
 
 function App() {
   return (
@@ -47,7 +46,7 @@ function App() {
         </div>
         <div className='city'>
           <div className='image1'>
-            <img src={myphoto} alt='city' />
+            <img src={cv} alt='city' />
           </div>
           <h1 className='title'>CERTIFICATIONS</h1>
         </div>
@@ -68,10 +67,10 @@ function App() {
 }
 function MiddleBody(props) {
   return (
-      <div className='image1'>
-        image={props.src} alt={`props.src`}
-        <img src={myblog} alt='city' />
-      </div>
-      )
-    }
+    <div className='image1'>
+      image={props.src} alt={`props.src`}
+      <img src={myblog} alt='city' />
+    </div>
+  )
+}
 export default App;
