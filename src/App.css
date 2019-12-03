@@ -1,19 +1,17 @@
 .App {
-  background-image: url(./images/nature.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   text-align: center;
 }
+
 .container {
   display: flex;
   flex-direction: row;
-  background: rgb(34, 43, 85);
-  opacity: .6;
+  background-color: rgb(149, 42, 42);
+  opacity: 1;
   padding: 1em;
 }
 .container:hover {
   opacity: 1;
-  background: rgb(180, 85, 40)
+  background: rgb(207, 74, 13)
 }
 .container .navigation {
   flex: 1;
@@ -46,12 +44,24 @@
   color: antiquewhite;
 }
 .welcome {
-  font-style: oblique;
-  font-family: cursive;
-  color: rgb(194, 192, 192);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(177, 29, 29);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  flex-wrap: wrap;
+}
+.welcome video {
+  flex: 1;
+}
+.welcome h2 {
+  flex: 1;
+  text-align: center;
+  font-size: 2em;
 }
 .welcome:hover {
-    color: rgb(239, 246, 248);
+    color: rgb(33, 36, 230);
 }
 .navigation li a {
   text-decoration: none;

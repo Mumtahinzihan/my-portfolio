@@ -5,6 +5,7 @@ import githubLogo from './images/github-logo.png';
 import instagramLogo from './images/instagram-logo.png';
 import linkedinLogo from './images/linkedin-logo.jpg';
 import emailLogo from './images/emailLogo.png';
+
 export default function HeaderNav() {
   return (
     <div className='container'>
