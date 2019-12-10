@@ -16,10 +16,10 @@ export default function HeaderNav() {
         <SocialMedia link='https://www.linkedin.com/in/mumtahin-zihan-27985b151/' target='_blank' image={linkedinLogo} logo={linkedinLogo} />
         <SocialMedia link='https://www.facebook.com/' target='_blank' image={facebookLogo} logo={facebookLogo} />
       </header>
-      <header className='navigation'>
+      {/* <header className='navigation'>
         <li> About me</li>
         <li><a href='#footer'>Contact me</a></li>
-      </header>
+      </header> */}
     </div>
   )
 }
