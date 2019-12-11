@@ -4,7 +4,7 @@
     justify-content: space-around;
     text-align: center;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
     right: 0;
@@ -29,7 +29,7 @@
     font-weight: 700;
   }
   
-   #cross {
+   /* #cross {
     color: rgb(184, 177, 177);
     width: 30px;
     font-weight: bolder;
@@ -40,26 +40,27 @@
     position: absolute;
     top: 10px;
     right: 250px;
-  }
+  } */
   
   .side-bar {
     display: grid;
-    grid-template-columns: 60px;
+    grid-template-columns: 50px;
     grid-template-rows: 200px 200px 200px 200px;
     color: rgb(173, 153, 123);
     font-size: 20px;
     font-weight: 600;
     margin-top: 150px;
   }
-  .side-bar a {
+  .side {
     text-decoration: none;
     color: burlywood;
-    padding: 20px;
+    padding: 5px;
     border-radius: 10px;
-    font-size: 25px;
+    width: 150px;
+    height: 50px;
 
   }
-  .side-bar a:hover {
+  .side:hover {
     background: rgba(156, 68, 28);
     color: cornsilk;
   }

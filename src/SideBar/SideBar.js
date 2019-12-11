@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './SideBar.css';
 
 function openNav(e) {
@@ -15,10 +16,9 @@ function SideBar() {
     {/* <span id='cross' >X <br/></span> */}
     <span id='btn' onClick={(e)=> openNav()}>&#9776;</span>
     <div className='side-bar' >
-      <div className='side'><a href='link'>About</a></div>
-      <div className='side'><a href='link'>Contact</a></div>
-      <div className='side'><a href='link'>About</a></div>
-      <div className='side'><a href='link'>Email</a></div>
+      <Link to='./about-me' className='side'>About-me</Link>
+      <Link to='./my-projects' className='side'>My projects</Link>
+      <a  className='side' href='mailto:mumtahin@yahoo.com'>Email</a>
     </div>
     </div>
   )
