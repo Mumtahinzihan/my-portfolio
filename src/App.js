@@ -1,21 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
-import HeaderNav from './Header';
-import GetWelcome from './GetWelcome';
-import GetMiddleBody from './GetMiddleBody';
-import SideBar from './SideBar';
+import HomePage from './HomePage';
+import AboutMe from './AboutMe/AboutMe';
+
 
 function App() {
   return (
-    <div className="App">
-      <HeaderNav />
-      <SideBar />
-      <GetWelcome />
-      <GetMiddleBody />
-      <footer id='footer'>
-        <p>Email: <a href="mailto:mumtahin@yahoo.com">mumtahin@yahoo.com</a></p>
-      </footer>
-    </div>
+    <Router>
+      <div className="App">
+        <Route exact path='/' component={HomePage} />
+        <Route exact path='/about-me' component={AboutMe} />
+      </div>
+    </Router>
   );
 }
 export default App;
