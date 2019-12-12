@@ -1,58 +1,72 @@
-.wrapper {
-    display: flex;
-    background: rgba(49, 54, 54, 0.5);
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-size: cover;
-    justify-content: space-around;
-    z-index: 1;
-    position: relative;
-  }
-  .wrapper .city {
-    flex: 1;
-    flex-basis: 30%;
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Mali|Patrick+Hand+SC|Sunshiney|Walter+Turncoat&display=swap');
+
+  .wrapper {
     display: flex;
     flex-direction: column;
-    margin-top: 48%;
-    position: relative;
   }
-  .wrapper .city .image1 img {
+  .wrapper .personal {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     width: 100%;
-    height: 100vh;
-    opacity: .9;
+    height: 60vh;
+    margin-top: 45%;
+    background: linear-gradient(rgb(252, 151, 56), rgb(245, 226, 190), rgb(247, 234, 226),rgb(247, 173, 139), rgb(255, 123, 0) );
   }
-  .wrapper .city .title {
-    color: rgb(66, 63, 190);
-    width: 80%;
-    height: 10%;
-    background: rgb(211, 216, 212);
-    flex: 1;
-    position: absolute;
-    bottom: 200px;
-    left: 9%;
-    right: 9%;
-    border: 10px solid chocolate;
-    border-block-start-style: ridge;
-    border-radius: 10px;
+  .wrapper .my-work {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 100%;
+    height: 60vh;
+    margin: 40% 0 20% 0;
+    background: linear-gradient(rgb(53, 126, 77), rgb(63, 104, 57), rgb(41, 95, 50),rgb(41, 119, 51), rgb(103, 168, 41) );
+  }
+  .my-work p {
+      margin: 12%;
+      color: rgb(243, 247, 207);
+      font-size: 20px;
+      line-height: 30px;
+  }
+
+  .story1 p {
+    margin: 12%;
+    color: rgb(0, 0, 0);
+    font-family: 'Chilanka', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .story3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 100%;
+  }
+  .story3 img {
+    width: 50%;
+    height: 50%;
+  }
+  .story3 {
+    background: rgb(96, 179, 247, .7);
+  }
+  h2 {
+    color: rgb(237, 240, 245);
+    background: rgba(48, 160, 252, 0.7);
+    padding: 50px;
+    margin-bottom: 8%;
   }
 
   @media only screen and (max-width: 600px) {
-
-    .wrapper .city {
-      flex-direction: column;
-      width: 100%;
+    .wrapper .personal {
+      height: auto;
+      margin-top: 170%;
+    }
+    .wrapper .my-work {
+      margin: 50% 0 20% 0;
       height: auto;
     }
-    .wrapper {
-      display: flex;
-      flex-direction: column;
-    }
-    .wrapper .city {
-      margin-top: 40em;
-    }
-    .wrapper .city .image1 img {
-      height: 650px;
-      opacity: .9;
-    }
+    .my-work p {
+      margin: 8%;
+      font-size: 18px;
+      line-height: 22px;
+  }
   
   }

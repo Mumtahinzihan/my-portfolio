@@ -4,26 +4,29 @@
     z-index: -100;
     position: fixed;
   }
+
   .video-text {
-    color: rgb(252, 203, 45);
-    background: rgba(22, 90, 37, 0.8);
+    color: rgb(255, 221, 108);
+    background: rgba(26, 107, 44, 0.6);
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
     left: 5%;
     right: 5%;
     font-family: 'Amita', cursive;
     width: 90%;
-    height: auto;
+    height: 200px;
     font-size: 100%;
     text-shadow: 4px 4px 4px rgb(10, 0, 0);
+    word-spacing: 10px;
   }
 
 @media only screen and (max-width: 600px) {
   .video-text {
     font-size: 70%;
+    height: auto;
     bottom: 22%;
     margin: 0%;
-    color: rgba(240, 239, 209);
-    background: rgba(4, 4, 41, 0.4);
+    color: rgb(250, 192, 115);
+    background: rgba(148, 71, 8, 0.4);
   }
 }

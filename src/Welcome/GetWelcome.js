@@ -6,7 +6,7 @@ export default function GetWelcome() {
   return (
     <div className='welcome'>
       <Welcome video={video1} type="video/mp4" playmode='autoPlay' volume='muted'
-        continuation='loop' message='Hello World! My Name is Mumtahin.
+        continuation='loop' message='My Name is Mumtahin.
         I Am A Software Developer.
         Welcome To My Portfolio.'/>
     </div>

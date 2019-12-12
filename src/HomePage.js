@@ -11,7 +11,6 @@ export default function HomePage() {
         <SideBar />
         <GetWelcome />
         <GetMiddleBody />
-        <GetMiddleBody />
         <Footer />
       </>
     )
