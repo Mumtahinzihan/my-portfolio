@@ -7,10 +7,10 @@
     background: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
-    right: 0;
+    right: -350px;
     width: 15%;
     height: 100%;
-    transition: right 1s;
+    transition: right .8s;
     z-index: 2;
   }
   
@@ -29,18 +29,15 @@
     font-weight: 700;
   }
   
-   /* #cross {
-    color: rgb(184, 177, 177);
-    width: 30px;
-    font-weight: bolder;
-    height: 30px;
-    padding: 10px;
-    border-radius: 10px;
+   #cross {
+    color: burlywood;
+    font-weight: bold;
     cursor: pointer;
     position: absolute;
-    top: 10px;
-    right: 250px;
-  } */
+    top: 3%;
+    right: 90%;
+    font-size: 20px;
+  }
   
   .side-bar {
     display: grid;
@@ -66,10 +63,10 @@
   }
   @media only screen and (max-width: 600px) {
     .menu {
-      padding-right: 10px;
+      padding-right: 0px;
       position: fixed;
-      margin-right: -100px;
-      width: 80%;
+      margin-right: -18%;
+      width: 100%;
     }
     .side-bar {
       display: grid;
@@ -80,5 +77,7 @@
       width: 20px;
       height: 20px;
       border-radius: 30%;
+      top: 5px;
+      right: 5px;
     }
   }  

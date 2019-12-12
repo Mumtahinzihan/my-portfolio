@@ -4,16 +4,16 @@ import './SideBar.css';
 
 function openNav(e) {
   document.getElementById("menu").style.right = "0px";
-  document.getElementById("menu").style.top = "0px";
+  // document.getElementById("menu").style.top = "0px";
 }
 function closeNav(e) {
   document.getElementById("menu").style.right = "-350px";
-  document.getElementById("menu").style.top= "0";
+  // document.getElementById("menu").style.top= "0";
 }
 function SideBar() {
   return (
-    <div id='menu' className='menu' onPointerLeave={(e)=> closeNav()}>
-    {/* <span id='cross' >X <br/></span> */}
+    <div id='menu' className='menu' >
+    <span id='cross' onClick={(e)=> closeNav()}>X</span>
     <span id='btn' onClick={(e)=> openNav()}>&#9776;</span>
     <div className='side-bar' >
       <Link to='./about-me' className='side'>About-me</Link>

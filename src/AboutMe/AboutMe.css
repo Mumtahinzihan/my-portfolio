@@ -4,17 +4,31 @@
     max-width: 100%;
     text-align: start;
     position: relative;
-
+    margin: 0;
 }
-.about h1 {
-    background: rgba(10, 10, 10, 0.8);
-    text-align: center;
-    color: burlywood;
-    margin: 4% 10% 0 10%;
-    padding-top: 10px;
+.here {
+    color: rgb(96, 187, 6);
+    text-decoration: none;
+}
+.about .link {
+ text-decoration: none;
+ color: burlywood;
+ font-weight: 600;
+ background: black;
+ padding: 5px;
+ position: fixed;
+ top: 0;
+ left: 0;
+}
+.head {
+ background:rgb(0, 0, 0);
+ text-align: center;
+ color: burlywood;
+ margin: 0 10% 0 10%;
+ padding-top: 3%;
 }
 .about p {
-    margin: 0 10% 2% 10%;
+    margin: 0 10% 0 10%;
     padding: 5%;
     background: rgba(0, 0, 0, 0.8);
     animation: aboutme;
@@ -24,14 +38,32 @@
     font-size: 25px;
 }
 @keyframes aboutme {
-    10% {background: orange; opacity: .5;}
-    20% {background: rgb(228, 122, 36); opacity: .55;}
-    30% {background: rgb(197, 100, 35); opacity: .6;}
-    40% {background: rgb(158, 83, 33); opacity: .65;}
-    50% {background: rgb(134, 71, 28); opacity: .7;}
-    60% {background: rgb(100, 52, 19); opacity: .75;}
-    70% {background: rgb(56, 31, 21); opacity: .8;}
-    80% {background: rgb(48, 25, 25); opacity: .85;}
+    10% {background: orange; opacity: .7;}
+    20% {background: rgb(228, 122, 36); opacity: .72;}
+    30% {background: rgb(197, 100, 35); opacity: .74;}
+    40% {background: rgb(158, 83, 33); opacity: .76;}
+    50% {background: rgb(134, 71, 28); opacity: .78;}
+    60% {background: rgb(100, 52, 19); opacity: .8;}
+    70% {background: rgb(56, 31, 21); opacity: .85;}
+    80% {background: rgb(48, 25, 25); opacity: .9;}
     90% {background: rgb(22, 18, 18); opacity: .95;}
     100% {background: black; opacity: 1;}
+}
+@media only screen and (max-width: 600px) {
+  .head {
+    margin: 0;
+    padding-top: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+    .project p {
+        margin: 4% 0 4% 0;
+        font-size: 20px;
+        padding: 1.5%;
+    }
+    .about p {
+        margin: 0 1% 0 1%;
+        padding: 2%;
+        font-size: 18px;
+    }
 }

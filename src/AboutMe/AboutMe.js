@@ -9,12 +9,12 @@ export default function AboutMe() {
 
         <div className='about'>
             <div id='sidebar'><SideBar /></div>
-            <Link to='./'>Back to home page</Link>
-            <h1>Who Am I ?</h1>
+            <Link className='link' to='./'>Back to home page</Link>
+            <h1 className='head'>Who Am I ?</h1>
             <p>It gives me great pleasure to welcome you to my website! In case this is your first time here,
             let me introduce myself.<br /><br />
                 My name is Mumtahin Zihan, and I am an aspiring software developer.<br /><br />
-                If you're here on official business, you should find any information about my work (.......)<br /><br />
+                If you're here on official business, you should find any information about my work (<Link className='here' to='my-projects'>Click here</Link>)<br /><br />
                 If you just want to know more about me and how I stumbled across my passion for software development,
             here you go:<br /><br />
                 Since my childhood I was very keen on new technologies and gadgets. I wanted to be a Computer Engineer. But unfortunately, I had to step into a career as military officer.
@@ -34,8 +34,6 @@ export default function AboutMe() {
                 Hope to hear from you soon,<br /><br />
                 Mumtahin
             </p>
-            <p>huhreiuhfurheurfnkjfnrwjkfnrjnfjfn</p>
-            <p>huhreiuhfurheurfnkjfnrwjkfnrjnfjfn</p>
         </div>
     )
 }

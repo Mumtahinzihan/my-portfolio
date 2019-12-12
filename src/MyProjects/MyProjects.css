@@ -1,37 +1,67 @@
 .project {
-    background: linear-gradient(blue, rgb(119, 140, 235), rgb(112, 178, 253), rgb(2, 112, 238));
+    background: linear-gradient(rgb(94, 94, 95), rgb(132, 132, 134), rgb(176, 177, 179), rgb(223, 224, 226));
     max-width: 100%;
-    text-align: start;
+    text-align: center;
     position: relative;
-    height: 100vh;
-
+    height: auto;
+}
+.link {
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: burlywood;
+    background: black;
+    padding: 5px;
 }
 .project h1 {
-    background: rgba(233, 227, 227, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     text-align: center;
-    color: burlywood;
-    margin: 4% 10% 0 10%;
-    padding-top: 10px;
+    color: beige;
+    margin: 0 10% 0 10%;
+    padding: 2%;
+    font-family: 'Times New Roman', Times, serif;
 }
 .project p {
     margin: 0 10% 2% 10%;
     font-size: 25px;
-    padding: 5%;
-    background: rgba(255, 255, 255, 0.8);
+    padding: 1.5%;
+    color: burlywood;
+    background: rgba(13, 88, 85, 0.8);
     animation: aboutme;
-    animation-duration: 4s;
-    color: rgb(0, 0, 0);
+    animation-duration: 8s;
     animation-timing-function: ease-in;
 }
+.project label {
+    color: rgb(161, 220, 255);
+}
+.project p a {
+    color: beige;
+    text-decoration: none;
+    cursor: pointer;
+}
 @keyframes aboutme {
-    10% {background: orange; opacity: .5;}
-    20% {background: rgb(228, 122, 36); opacity: .55;}
-    30% {background: rgb(197, 100, 35); opacity: .6;}
-    40% {background: rgb(158, 83, 33); opacity: .65;}
-    50% {background: rgb(134, 71, 28); opacity: .7;}
-    60% {background: rgb(100, 52, 19); opacity: .75;}
-    70% {background: rgb(56, 31, 21); opacity: .8;}
-    80% {background: rgb(48, 25, 25); opacity: .85;}
-    90% {background: rgb(22, 18, 18); opacity: .95;}
-    100% {background: black; opacity: 1;}
+    10% {background: rgb(118, 156, 163); opacity: .5;}
+    20% {background: rgb(9, 143, 150); opacity: .55;}
+    30% {background: rgb(17, 133, 143); opacity: .6;}
+    40% {background: rgb(29, 110, 124); opacity: .65;}
+    50% {background: rgb(23, 126, 115); opacity: .7;}
+    60% {background: rgb(39, 110, 112);; opacity: .75;}
+    70% {background: rgb(33, 109, 102); opacity: .8;}
+    80% {background: rgb(30, 111, 96); opacity: .85;}
+    90% {background: rgb(33, 109, 92); opacity: .95;}
+    100% {background: rgb(25, 95, 88); opacity: 1;}
+}
+@media only screen and (max-width: 600px) {
+    .project h1 {
+        font-size: 30px;
+        margin: 0;
+        padding-top: 15%;
+    }
+    .project p {
+        margin: 4% 0 4% 0;
+        font-size: 20px;
+        padding: 1.5%;
+        
+    }
 }

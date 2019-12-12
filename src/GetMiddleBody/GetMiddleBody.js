@@ -9,7 +9,7 @@ import color2 from '../images/color2.jpg';
 export default function GetMiddleBody() {
     return (
         <div className='wrapper'>
-            <MiddleBody text='I love to work and share my views' photo={colors} logo={colors} />
+            <MiddleBody text='I love to work' photo={colors} logo={colors} />
             <MiddleBody text='certification' photo={city} logo={city} />
             <MiddleBody text='cv' photo={autumn} logo={autumn} />
             <MiddleBody text='others' photo={color2} logo={color2} />
