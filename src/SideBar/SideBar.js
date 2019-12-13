@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import './SideBar.css';
 
 function openNav(e) {
-  document.getElementById("menu").style.right = "0px";
+  document.getElementById("menu").style.right = "0";
 }
 function closeNav(e) {
-  document.getElementById("menu").style.right = "-350px";
+  document.getElementById("menu").style.right = "-350%";
 }
 function SideBar() {
   return (

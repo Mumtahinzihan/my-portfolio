@@ -5,7 +5,7 @@ import video1 from '../images/video1.mp4';
 export default function GetWelcome() {
   return (
     <div className='welcome'>
-      <Welcome video={video1} type="video/mp4" playmode='autoPlay' volume='muted'
+      <Welcome video={video1} type="video/mp4" playmode='autoplay' volume='muted'
         continuation='loop' message='My Name is Mumtahin.
         I Am A Software Developer.
         Welcome To My Portfolio.'/>

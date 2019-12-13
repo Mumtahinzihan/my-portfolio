@@ -7,13 +7,13 @@
     background: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
-    right: -350px;
+    right: -380px;
     width: 15%;
     height: 100%;
     transition: right .8s;
+    transition-timing-function: ease-in-out;
     z-index: 2;
   }
-  
    #btn {
     color: burlywood;
     background: rgb(0, 0, 0);
@@ -42,7 +42,7 @@
   .side-bar {
     display: grid;
     grid-template-columns: 50px;
-    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-rows: auto auto auto auto;
     color: rgb(173, 153, 123);
     font-size: 20px;
     font-weight: 600;
@@ -55,7 +55,6 @@
     border-radius: 10px;
     width: 150px;
     height: 50px;
-
   }
   .side:hover {
     background: rgba(156, 68, 28);
@@ -63,21 +62,19 @@
   }
   @media only screen and (max-width: 600px) {
     .menu {
-      padding-right: 0px;
-      position: fixed;
-      margin-right: -18%;
+      padding-right: 0;
       width: 100%;
+      right: -450px;
     }
     .side-bar {
       display: grid;
       grid-template-columns: auto;
-      grid-template-rows: 120px 120px 120px 120px;
     }
     #btn {
-      width: 20px;
-      height: 20px;
+      width: 8%;
+      height: auto;
       border-radius: 30%;
-      top: 5px;
-      right: 5px;
+      top: 2%;
+      right: 1%;
     }
   }  

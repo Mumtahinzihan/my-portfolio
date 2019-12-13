@@ -6,18 +6,20 @@
   }
 
   .video-text {
-    color: rgb(255, 221, 108);
-    background: rgba(26, 107, 44, 0.6);
+    color: rgb(0, 0, 0);
+    background: rgba(236, 236, 236, 0.6);
     position: absolute;
     bottom: 20%;
     left: 5%;
     right: 5%;
     font-family: 'Amita', cursive;
     width: 90%;
-    height: 200px;
+    height: 18vh;
     font-size: 100%;
-    text-shadow: 4px 4px 4px rgb(10, 0, 0);
     word-spacing: 10px;
+  }
+  .welcome video {
+    filter: greyScale(50%);
   }
 
 @media only screen and (max-width: 600px) {
