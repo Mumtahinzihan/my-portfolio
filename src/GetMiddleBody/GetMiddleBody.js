@@ -20,37 +20,35 @@ export default function GetMiddleBody() {
                 <div className='story1'>
                     <p>I am a softeare developer from London.
                     I finished my bootcamp from <a href='https://www.kodiri.com/bootcamp/testimonials' terget='_blank'> Kodri </a>
-                     at the end of the last year.
-                    Throughout the bootcamp, I earned a lot of knowledge. My journey in Software developement
-                    started almost from zero, I managed to learn a lot from Kodori which started from beginner
-                     level to expart level in Javascript, intermediate in React and Node. My knowledge was not only
-                     confined into those but also folloewd by morning meeting in agile methodology, workshops,
-                     a lot of coding challanges, board challanges, personal and team projects, weekly reviews. </p>
+                        at the end of the last year.
+                       Throughout the bootcamp, I earned a lot of knowledge. My journey in Software developement
+                       started almost from zero, I managed to learn a lot from Kodori which started from beginner
+                        level to expart level in Javascript, intermediate in React and Node. My knowledge was not only
+                        confined into those but also folloewd by morning meeting in agile methodology, workshops,
+                        a lot of coding challanges, board challanges, personal and team projects, weekly reviews.
+                </p>
                 </div>
                 <div className='story1'>
-                    <p style={divStyle}>my personal info Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet
-                        egestas arcu, non pretium mauris. Maecenas felis metus, porttitor a aliquet nec, gravida a
-                        ligula. Etiam venenatis eleifend velit, vel scelerisque tortor rutrum id. Aenean nec justo
-                        id lacus cursus ornare ut et purus. Nunc sit amet blandit sem. Etiam maximus orci nec nibh
-                         tristique facilisis. Maecenas bibendum ante at urna ullamcorper, et luctus felis feugiat.
-                         Cras nisl nisi, suscipit non lorem vel, venenatis faucibus metus. Morbi placerat tortor
-                         vitae tellus fringilla sagittis mollis vel lorem.</p>
+                    <p style={divStyle}>I worked with couple of projects. <br/>I love to work not only by myself but also as a team.<br/>
+                    In my bootcamp, I did a lot of pair progamming with my team-members which helped me to discover a lot of new things.
+                    <br/><br/>I have shared couple of my projects here</p>
                 </div>
             </div>
 
             <div className='my-work'>
                 <div className='story2'>
-                    <p style={colorName}>I work with Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet egestas arcu, non pretium mauris. Maecenas felis metus, porttitor a aliquet nec, gravida a ligula. Etiam venenatis eleifend velit, vel scelerisque tortor rutrum id. Aenean nec justo id lacus cursus ornare ut et purus. Nunc sit amet blandit sem. Etiam maximus orci nec nibh tristique facilisis. Maecenas bibendum ante at urna ullamcorper, et luctus felis feugiat. Cras nisl nisi, suscipit non lorem vel, venenatis faucibus metus. Morbi placerat tortor vitae tellus fringilla sagittis mollis vel lorem.</p>
+                    <p style={colorName}>I used a lot of new technologies in my project such as <br/>React.js, <br/>Node.js and <br/>mongoDB</p>
                 </div>
                 <div className='story2'>
-                    <p >my personal info Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras sit amet egestas arcu, non pretium mauris. Maecenas felis metus,
-                        porttitor a aliquet nec, gravida a ligula. Etiam venenatis eleifend velit, vel scelerisque
-                        tortor rutrum id. Aenean nec justo id lacus cursus ornare ut et purus. Nunc sit amet blandit
-                        sem. Etiam maximus orci nec nibh tristique facilisis. Maecenas bibendum ante at urna ullamcorper, et luctus felis feugiat. Cras nisl nisi, suscipit non lorem vel, venenatis faucibus metus. Morbi placerat tortor vitae tellus fringilla sagittis mollis vel lorem.</p>
+                    <p>Last not but the least, <br/>I dont want to stop here rather I want to take my career futher.<br/><br/>
+                     Currently, I am actively looking for a junior developer
+                    role. If you find my works draw you interest, <br/>feel free to contact me &#128519;
+                    </p>
                 </div>
             </div>
-            <h2>What do I use in my project?</h2>
+            <h2>
+                What do I use in my project?
+                </h2>
 
             <div className='story3'>
                 <div className='img-logo'>
