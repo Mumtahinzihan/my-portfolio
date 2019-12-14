@@ -1,12 +1,12 @@
 #footer {
     padding: 2px;
-    background: rgb(17, 17, 17, .8); 
+    background: rgba(0, 0, 0, 0.5); 
     font-size: 1.2em;
     text-align: center;
-    color: burlywood;
+    color: rgb(236, 236, 236);
   }
   #footer a {
-    color: burlywood;
+    color: rgb(236, 236, 236);
     font-weight: 600;
     width: 50%;
     text-decoration: none;
