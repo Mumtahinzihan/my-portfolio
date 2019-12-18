@@ -2,37 +2,44 @@
  .about {
     color: rgb(236, 236, 236);
     max-width: 100%;
-    text-align: start;
+    text-align: center;
     position: relative;
     margin: 0;
 }
 .here {
-    color: rgb(96, 187, 6);
+    color: rgb(255, 0, 0);
     text-decoration: underline;
 }
 .about .link {
     text-decoration: none;
     color: rgb(236, 236, 236);
-    font-weight: 600;
-    background: black;
+    background-color: rgb(0, 0, 0, .9);
+    font-weight: bolder;
     padding: 5px;
+    font-size: 30px;
     position: fixed;
     top: 0;
     left: 0;
+    cursor: pointer;
 }
 .head {
-    background:rgb(0, 0, 0);
+    /* background:rgb(200, 200, 200); */
     text-align: center;
-    color: rgb(236, 236, 236);
-    margin: 0 10% 0 10%;
-    padding-top: 3%;
+    color: rgb(0, 0, 0);
+    /* position: fixed;
+    top: 0;
+    left: 45%; */
+
+    /* margin: 0 10% 0 10%; */
+    /* padding-top: %; */
 }
 .about p {
-    margin: 0 10% 0 10%;
+    /* margin: 0 10% 0 10%; */
     padding: 5%;
-    background: rgba(0, 0, 0, 0.8);
-    color: rgb(236, 236, 236);
+    background: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
     font-size: 25px;
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 600px) {

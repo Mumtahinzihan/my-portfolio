@@ -9,7 +9,7 @@ export default function AboutMe() {
 
     <div className='about'>
       <SideBar />
-      <Link className='link' to='./'>Back to home page</Link>
+      <Link className='link' to='./'>&lt;</Link>
       <h1 className='head'>Who Am I ?</h1>
       <p>It gives me great pleasure to welcome you to my website! In case this is your first time here,
             let me introduce myself.<br /><br />

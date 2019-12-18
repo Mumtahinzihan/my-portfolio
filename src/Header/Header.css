@@ -7,6 +7,11 @@
   z-index: 2;
   width: 100%;
   padding: 15px;
+  justify-content: space-between;
+  text-align: left;
+}
+.container .social-media {
+  flex: 1;
 }
 .container .social-media span img {
   width: 2em;
@@ -15,6 +20,20 @@
   padding: 3px;
   margin: 5px;
   background: rgb(236, 236, 236);
+}
+.header {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+.header #head {
+  width: 150px;
+  margin: 0 1%;
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(236, 236, 236);
+  font-size: 25px;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 600px) {
@@ -29,5 +48,10 @@
   }
   .container {
     padding: .5em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    display: none;
   }
 }
