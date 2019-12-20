@@ -24,7 +24,7 @@ export default function GetMiddleBody() {
                 <div className='story1'>
                     <p>I worked on a number of projects, where I completed tasks independently as well as participated in multiple team projects.<br />
                         During team work, I did a lot of pair progamming with my colleagues which helped me to discover a lot of new things.
-                    <br /><br />I have shared couple of my projects <Link to='/my-projects'>here</Link>
+                    <br />I have shared couple of my projects <Link to='/my-projects'>here</Link>
                     </p>
                 </div>
             </div>

@@ -13,7 +13,7 @@ export default function MyProjects() {
             <div>
                 <p>This project was built as a team, based on a Festival App which is powered by <label>HTML5, CSS3, React.js, JavaScript, Node.js, MongoDB</label>.
                  To veiw please click on the project.<br/><br/>
-                 <a id='project' href='link' target='_blank' rel="noopener noreferrer">
+                 <a id='project' href='https://festipal-kodiri.herokuapp.com/' target='_blank' rel="noopener noreferrer">
                     Festipal Project
                 </a>
                 </p>
@@ -21,7 +21,7 @@ export default function MyProjects() {
             <div>
                 <p>This project was based on the Netflix App which is powered by <label>HTML5, CSS3, React.js, JavaScript, Node.js and MongoDB</label>.
                  To veiw please click on the project. <br/><br/>
-                 <a id='project' href='https://kodflix-eleop64jj.now.sh/' target='_blank' rel="noopener noreferrer">
+                 <a id='project' href='https://kodflix-mumtahin.herokuapp.com/' target='_blank' rel="noopener noreferrer">
                     My Kodflix Project
                 </a>
                 </p>

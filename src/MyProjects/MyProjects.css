@@ -1,5 +1,5 @@
 .projects {
-    background-color: rgb(112, 112, 112);
+    background-color: rgb(212, 212, 212);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 .proj {
-    background: linear-gradient(rgb(94, 94, 95), rgb(132, 132, 134), rgb(176, 177, 179), rgb(223, 224, 226));
+    background: linear-gradient(rgb(112, 112, 112), rgb(132, 132, 134), rgb(176, 177, 179), rgb(223, 224, 226));
     max-width: 100%;
     text-align: center;
     position: relative;
@@ -16,13 +16,11 @@
     flex-direction: column;
     justify-content: center;
 }
-
 .proj h1 {
     text-align: center;
     color: rgb(236, 236, 236);
     margin: 0 10% 0 10%;
     padding: 2%;
-    font-family: 'Times New Roman', Times, serif;
 }
 .proj p {
     margin: 0 10% 2% 10%;
@@ -32,10 +30,10 @@
     background: rgba(236, 236, 236, 0.8);
 }
 .proj label {
-    color: rgb(128, 11, 0);
+    color: rgb(190, 16, 0);
 }
 #project {
-    color: rgb(182, 38, 38);
+    color: rgb(190, 16, 0);
     text-decoration: none;
     cursor: pointer;
     padding: 5px;
@@ -44,7 +42,7 @@
 
 @media only screen and (max-width: 600px) {
     .proj {
-        margin-top: 50%;
+        margin-top: 60%;
 
     }
     .proj h1 {
