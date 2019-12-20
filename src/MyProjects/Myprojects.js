@@ -1,13 +1,14 @@
 import React from 'react';
 import './MyProjects.css';
+import HeaderNav from '../Header/Header';
 import SideBar from '../SideBar/SideBar';
-import { Link } from 'react-router-dom';
 
 export default function MyProjects() {
     return (
         <div className='projects'>
+            <HeaderNav />
             <SideBar />
-            <Link className='link' to='./'>&lt;</Link>
+            <div className='proj'>
             <h1>My projects</h1>
             <div>
                 <p>This project was built as a team, based on a Festival App which is powered by <label>HTML5, CSS3, React.js, JavaScript, Node.js, MongoDB</label>.
@@ -30,6 +31,7 @@ export default function MyProjects() {
                 This project is based on a home page of an academy. To veiw please click on the project.<br/><br/>
                 <a id='project' href='https://mumtahinzihan.github.io/comlaracademy/' target='_blank' rel="noopener noreferrer">Comlar Academy</a>
                 </p>
+            </div>
             </div>
         </div>
     )

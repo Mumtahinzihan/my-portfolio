@@ -1,15 +1,15 @@
 import React from 'react';
 import './AboutMe.css'
 import { Link } from 'react-router-dom';
+import HeaderNav from '../Header/Header';
 import SideBar from '../SideBar/SideBar';
-
 
 export default function AboutMe() {
   return (
-
     <div className='about'>
+      <div className='abt'>
+      <HeaderNav />
       <SideBar />
-      <Link className='link' to='./'>&lt;</Link>
       <h1 className='head'>Who Am I ?</h1>
       <p>It gives me great pleasure to welcome you to my website! In case this is your first time here,
             let me introduce myself.<br /><br />
@@ -37,6 +37,7 @@ export default function AboutMe() {
         Hope to hear from you soon,<br /><br />
         Mumtahin
       </p>
+      </div>
     </div>
   )
 }
