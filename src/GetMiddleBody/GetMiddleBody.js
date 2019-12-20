@@ -14,10 +14,10 @@ export default function GetMiddleBody() {
             <div className='personal'>
                 <div className='story1'>
                     <p>I am a software developer from London.
-                    I finished my bootcamp from <a href='https://www.kodiri.com/bootcamp/testimonials' terget='_blank' rel="noopener noreferrer"> Kodri </a>
+                    I finished my bootcamp from <a href='https://www.kodiri.com/bootcamp/testimonials' terget='_blank' rel="noopener noreferrer"> Kodiri </a>
                         at the end of the last year.
                       <br /> My journey in software developement started almost from zero - I learned a lot from Kodori boot-camp about 
-                      new progamming langueges. I don't only code-
+                      new programming languages. I don't only code-
                         To know more about me, <Link to='/about-me'>click here</Link>
                     </p>
                 </div>
@@ -40,7 +40,7 @@ export default function GetMiddleBody() {
                 </div>
             </div>
             <h2>
-                What progamming langueges do I use in my project ???
+                What programming languages do I use in my project ???
             </h2>
 
             <div className='story3'>
@@ -69,7 +69,7 @@ export default function GetMiddleBody() {
                 
                 <div className='img-logo'>
                 <a href='https://en.wikipedia.org/wiki/MongoDB' target='_blank' rel="noopener noreferrer">
-                    <img src={mongodb} alt='mongodb' /><h3>MONGODB</h3></a>
+                    <img src={mongodb} alt='mongodb' /><h3>MongoDB</h3></a>
                 </div>
             </div>
         </div>
