@@ -30,17 +30,17 @@ export default function GetMiddleBody() {
             </div>
             <div className='my-work'>
                 <div className='story2'>
-                    <p>I love to use new technologies in my project such as <br />React.js, <br />Node.js and <br />mongoDB</p>
+                    <p>I love to use new technologies in my projects such as <br />React.js, <br />Node.js and <br />mongoDB</p>
                 </div>
                 <div className='story2'>
-                    <p>Last not but the least, <br /> I want to take my career further.<br /><br />
+                    <p>Last but not least, <br /> I want to take my career further.<br /><br />
                         I am actively looking for a junior developer
                     role. If you want to collaborate with me, <br />feel free to contact me &#128519;
                     </p>
                 </div>
             </div>
             <h2>
-                What programming languages do I use in my project ???
+                What programming languages do I use in my projects ?
             </h2>
 
             <div className='story3'>
